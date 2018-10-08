@@ -175,8 +175,18 @@ def player_numbers(team)
   jersey_array
 end
     
-def player_stats
-    
+def player_stats(name)
+   answer = {}
+    game_hash.each do |team, team_details_hash|
+      team_details_hash[:players].each do |each_players_details|
+        if each_players_details[:player_name] == name
+          each_players_details.delete(:player_name)
+          answer = each_players_details
+        end
+      end
+    end
+    answer
+end
     
     
     
