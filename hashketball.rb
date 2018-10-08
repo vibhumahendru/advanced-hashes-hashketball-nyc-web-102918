@@ -162,6 +162,16 @@ def team_names
   end
   team_names_array
 end
+
+def player_numbers(team)
+  jersey_array = []
+  game_hash.each do |homeAway, team_details_hash|
+    team_details_hash[:players].each do |each_players_details|
+      jersey_array << each_players_details[:number]
+    end
+  end
+  jersey_array
+end
     
     
     
