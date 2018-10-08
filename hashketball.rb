@@ -141,7 +141,7 @@ def shoe_size(player)
      end
    end
  end
-  answer.to_i
+  answer
 end
 
 def team_colors
