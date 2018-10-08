@@ -141,7 +141,7 @@ def shoe_size(player)
      end
    end
  end
-  answer
+  answer.to_i
 end
 
 
