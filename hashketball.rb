@@ -155,6 +155,19 @@ def team_colors(team_name_supply)
       answer
 end
 
-
+def team_names
+  team_names_array = []
+  game_hash.each do |homeAway, team_details_hash|
+    team_names_array << team_details_hash[:team_name]
+  end
+  team_names_array
+end
+    
+    
+    
+    
+    
+    
+    
 
 
