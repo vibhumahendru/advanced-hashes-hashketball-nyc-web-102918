@@ -171,6 +171,7 @@ def player_numbers(team)
       jersey_array << each_players_details[:number]
     end
   end
+  end
   jersey_array
 end
     
