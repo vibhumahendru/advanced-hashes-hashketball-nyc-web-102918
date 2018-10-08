@@ -144,7 +144,7 @@ def shoe_size(player)
   answer
 end
 
-def team_colors
+#def team_colors
 
 
 
