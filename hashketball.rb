@@ -175,7 +175,7 @@ def player_numbers(team)
   jersey_array
 end
     
-    
+def player_stats
     
     
     
