@@ -128,7 +128,7 @@ def num_points_scored(player)
      end
    end
  end
- answer
+ return answer
 end
 
 
